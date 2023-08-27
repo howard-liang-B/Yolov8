@@ -1,0 +1,8 @@
+path: 20230827_teeth_10/
+train: 'train/images'
+val: 'valid/images'
+
+# class names
+names:
+  0: 'teeth'
+  1: 'braces'
