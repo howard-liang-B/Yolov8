@@ -1,33 +1,33 @@
 # Yolov8-Project-by-Howard
-1
----//1
-標記軟體
-1. labelImg
+## <p align="center">Label</p>
+1. `labelImg` <br>
 https://github.com/HumanSignal/labelImg/releases
 
-2. Make Sense
+2. `Make Sense` <br>
 https://www.makesense.ai/
 
-3. CVAT
+3. `CVAT`  <br> 
 https://www.cvat.ai/
 
-4. roboflow 
+4. `roboflow` :thumbsup: <br>
 https://roboflow.com/
 
-================================================
-使用 GPU 訓練
+## <p align="center">Use GPU to train model</p>
 
-cuda
-https://developer.nvidia.com/cuda-toolkit-archive
-https://medium.com/ching-i/win10-%E5%AE%89%E8%A3%9D-cuda-cudnn-%E6%95%99%E5%AD%B8-c617b3b76deb
+1. `cuda` <br>
+* CUDA Toolkit Archive : https://developer.nvidia.com/cuda-toolkit-archive
+* Tutorial : https://medium.com/ching-i/win10-%E5%AE%89%E8%A3%9D-cuda-cudnn-%E6%95%99%E5%AD%B8-c617b3b76deb
 
-pytorch
-https://pytorch.org/get-started/locally/
+2. `Pytorch` <br>
+* https://pytorch.org/get-started/locally/
 
-===============================================
-$ pip install ultralytics
-$ yolo predict model = yolov8n.pt
-$ yolo predict model = yolov8s.pt
+## <p align="center">Download model</p>
+```
+$ pip install ultralytics 
+$ yolo predict model = yolov8n.pt 
+$ yolo predict model = yolov8s.pt 
+```
+
 
 
 
