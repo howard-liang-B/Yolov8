@@ -1,0 +1,8 @@
+path: C:\\Users\\Mered\\OneDrive\\文件\\桌面\\Yolov8-Project-by-Howard\datasets
+train: 'train/images'
+val: 'valid/images'
+
+# class names
+names:
+  0: 'teeth'
+  1: 'braces'
