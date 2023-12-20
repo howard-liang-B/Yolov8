@@ -20,6 +20,7 @@ https://roboflow.com/
 
 2. `Pytorch` <br>
 * https://pytorch.org/get-started/locally/
+* https://pytorch.org/get-started/previous-versions/
 
 ## <p align="center">Download model</p>
 ```
