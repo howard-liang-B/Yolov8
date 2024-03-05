@@ -6,8 +6,8 @@
 </body>
 </html>
 
-## colab
-[![open in colab](https://drive.google.com/file/d/1kTU1MA51Hdwt4xGxyyLr2tcZN10Y3Pgh/view?usp=sharing)]
+## Colab
+[![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1kTU1MA51Hdwt4xGxyyLr2tcZN10Y3Pgh/view?usp=sharing)
 
 ## Step_1 : Label
 1. `labelImg` <br>
