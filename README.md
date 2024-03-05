@@ -22,7 +22,7 @@ https://www.cvat.ai/
 4. `roboflow` :thumbsup: <br>
 https://roboflow.com/
 
-## Step_2 : Use GPU to train model
+## Step_2 : Setup GPU to train model
 
 1. `cuda` <br>
 * CUDA Toolkit Archive : https://developer.nvidia.com/cuda-toolkit-archive
