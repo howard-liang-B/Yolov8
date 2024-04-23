@@ -17,5 +17,4 @@ results = model.predict(              # Step 2 : 使用 YOLOv8 模型進行物�
     save_conf = True,       # - 儲存物件偵測結果信心水準值
     save_crop = True,       # - 儲存擷取物件影像
     visualize = False,       # - 偵測過程特徵圖視覺化
-    augment = True          # segmentation 會出錯
 )
