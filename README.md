@@ -6,7 +6,7 @@
 </body>
 </html>
 
-## yolo 非常之簡單介紹
+## YOLO 非常之簡單介紹
 * YOLO（You Only Look Once）的作法是將輸入的影像切割成一個固定大小的網格（grid），這個網格通常是SxS大小的。每個網格都負責偵測該網格內可能存在的物體。如果一個物體的中心落入某個網格內，那麼這個網格就要負責去偵測該物體。
 * bounding box(bbox) 是由，"x, y, w, h, confidence"，五個東西所組成，就是預測後的你在影像看到的框框。當一個網格內存在多個bbox時，每個bbox都會進行類別的機率預測。YOLO將選擇具有最高confidence的那個bbox作為最終的預測。
 * 模型評估: Precision、Recall、Accuracy、F1-score ...
