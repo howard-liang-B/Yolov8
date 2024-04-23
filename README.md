@@ -9,8 +9,12 @@
 ## yolo 非常之簡單介紹
 * YOLO（You Only Look Once）的作法是將輸入的影像切割成一個固定大小的網格（grid），這個網格通常是SxS大小的。每個網格都負責偵測該網格內可能存在的物體。如果一個物體的中心落入某個網格內，那麼這個網格就要負責去偵測該物體。
 * bounding box(bbox) 是由，"x, y, w, h, confidence"，五個東西所組成，就是預測後的你在影像看到的框框。當一個網格內存在多個bbox時，每個bbox都會進行類別的機率預測。YOLO將選擇具有最高confidence的那個bbox作為最終的預測。
-* 模型評估: AP、mAP、Precision、Recall、Accuracy、F1-score ...
-  <img src="readme images/confusion matrix.png" alt="混和矩陣" width="100%">  
+* 模型評估: Precision、Recall、Accuracy、F1-score ...
+1. Precision：預測為目標物且實際上也確實為目標物的比例，可以得知當模型預測為目標物時，這個結果是不是準確的。
+2. Recall：實際為目標物也確實被預測為目標物的比例，可以得知模型找出目標物的能力。
+3. Accuracy : 準確度是指模型正確預測的樣本數占總樣本數的比例。
+4. F1 score : 是 Precision 與 Recall 的調和平均數，調和平均值的計算方式是將數值的倒數取平均後再取倒數。
+  <img src="readme images/Confusion_matrix_1.png" alt="混和矩陣" width="80%">  
 參考資料: https://medium.com/ching-i/yolo-c49f70241aa7
 
 ## Colab
