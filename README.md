@@ -38,7 +38,7 @@
       * 1391 * 0.501778 = 697.97(接近下圖的x:700)
       * 1454 * 0.279762 = 406.77(接近下圖的y:406)。
   <img src="readme images/label_exp_1.png" alt="標記範例" width="80%">  
-* **Min-Max 正規化 (Min-Max Normalization)**: 將特徵縮放到一個指定的最小值和最大值之間，通常是 [0, 1] 或 [-1, 1]。
+* **Min-Max 正規化 (Min-Max Normalization)**: 將特徵縮放到一個指定的最小值和最大值之間，通常是 [0, 1] 或 [-1, 1]。  
   <img src="readme images/Min-Max Normalization.png" alt="Min-Max 正規化公式" width="30%">  
 * **以下是進行標記的網站**
 1. `labelImg` <br>
