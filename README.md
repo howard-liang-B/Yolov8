@@ -36,9 +36,9 @@
   * 那至於這邊為甚麼是小數點呢，因為他這邊做了正規化(Normalization)或是標準化，Normalization是應用在機器學習中，通過讓不同單位的資料變成同單位，也就是讓資料的尺度相同。以這張 "bon1.png" 為例，圖片的 [width, height] = [1391, 1454] (自己電腦查的)，我把滑鼠移動到 bbox 的中心(因為是滑鼠移動，所以等等的計算有誤差)
       * 1391 * 0.501778 = 697.97(接近下圖的x:700)
       * 1454 * 0.279762 = 406.77(接近下圖的y:406)。
-  <img src="readme images/Confusion_matrix_1.png" alt="混和矩陣" width="80%">  
+  <img src="readme images/label_exp_1.png" alt="標記範例" width="80%">  
 * **Min-Max 正規化 (Min-Max Normalization)**: 將特徵縮放到一個指定的最小值和最大值之間，通常是 [0, 1] 或 [-1, 1]。
-  <img src="readme images/Confusion_matrix_1.png" alt="混和矩陣" width="80%">  
+  <img src="readme images/Min-Max Normalization.png" alt="Min-Max 正規化公式" width="40%">  
 * **以下是進行標記的網站**
 1. `labelImg` <br>
 https://github.com/HumanSignal/labelImg/releases
