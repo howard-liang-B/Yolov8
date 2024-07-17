@@ -1,0 +1,13 @@
+train: C:\Users\user\Desktop\Yolov8\plates\train\images
+val: C:\Users\user\Desktop\Yolov8\plates\valid\images
+test: C:\Users\user\Desktop\Yolov8\plates\test\images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: car-class-riclz
+  project: license_plate_01
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/car-class-riclz/license_plate_01/dataset/10
