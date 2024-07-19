@@ -25,36 +25,36 @@
 2. roboflow 上面有其他人公開的 dataset，都是可以下載的  
    https://universe.roboflow.com/
 3. dataset 資料夾格式如下，從官方抓的  
-   <img src="readme images/yolo_dataset_dir.png" alt="yolo_dataset_dir" width="30%">  
+   <img src="readme images/yolo_dataset_dir.png" alt="yolo_dataset_dir" width="60%">  
 ```
 # 這邊是我放 YOLO dataset 的資料夾架構
 dataset/
     train/
       images/
-          |-- 1.jpg
-          |-- 2.jpg
+          |-- 0001.jpg
+          |-- 0002.jpg
               ...
       labels/
-          |-- 1.txt
-          |-- 2.txt
+          |-- 0001.txt
+          |-- 0002.txt
               ...
     val/
       images/
-          |-- 3.jpg
-          |-- 4.jpg
+          |-- 0003.jpg
+          |-- 0004.jpg
               ...
       labels/
-          |-- 3.txt
-          |-- 4.txt
+          |-- 0003.txt
+          |-- 0004.txt
               ...
     test/
       images/
-          |-- 5.jpg
-          |-- 6.jpg
+          |-- 0005.jpg
+          |-- 0006.jpg
               ...
       labels/
-          |-- 5.txt
-          |-- 6.txt
+          |-- 0005.txt
+          |-- 0006.txt
               ...
 ```
 
