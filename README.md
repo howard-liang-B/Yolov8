@@ -24,6 +24,39 @@
 1. 網路上找自己喜歡的照片
 2. roboflow 上面有其他人公開的 dataset，都是可以下載的  
    https://universe.roboflow.com/
+3. dataset 資料夾格式如下，從官方抓的  
+   <img src="readme images/yolo_dataset_dir.png" alt="yolo_dataset_dir" width="30%">  
+```
+# 這邊是我放 YOLO dataset 的資料夾架構
+dataset/
+    train/
+      images/
+          |-- 1.jpg
+          |-- 2.jpg
+              ...
+      labels/
+          |-- 1.txt
+          |-- 2.txt
+              ...
+    val/
+      images/
+          |-- 3.jpg
+          |-- 4.jpg
+              ...
+      labels/
+          |-- 3.txt
+          |-- 4.txt
+              ...
+    test/
+      images/
+          |-- 5.jpg
+          |-- 6.jpg
+              ...
+      labels/
+          |-- 5.txt
+          |-- 6.txt
+              ...
+```
 
 ## Step_1 : Label
 * **為甚麼要對影像進行標記**  
