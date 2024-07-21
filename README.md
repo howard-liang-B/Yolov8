@@ -27,7 +27,7 @@
 3. dataset 資料夾格式如下，從官方抓的  
    <img src="readme images/yolo_dataset_dir.png" alt="yolo_dataset_dir" width="60%">  
 ```
-# 這邊是我放 YOLO dataset 的資料夾架構
+# 這邊是我自己 YOLO dataset 的資料夾架構
 dataset/
     train/
       images/
@@ -118,13 +118,11 @@ if torch.__version__:
 
 ## Step_3 : Download model
 ```
-$ pip install ultralytics 
-$ yolo predict model = yolov8n.pt 
+$ pip install ultralytics # 安裝套件的指令
+$ yolo predict model = yolov8n.pt # 套件內的指令可以進行預測
 $ yolo predict model = yolov8s.pt 
 ```
-
-
-
-
-
-
+* YOLOv8 提供許多種模型，其中不同種類(Detection、Segmentation、Pose...)的模型又分五種等級，
+  YOLOv8 Nano (YOLOv8n) 是最快和最小的，而YOLOv8 Extra Large (YOLOv8x) 是最準確但最慢的，因此可以根據自己的需求去選擇訓練和推理。
+   ```YOLOv8n、YOLOv8s、YOLOv8m、YOLOv8l、YOLOv8x```
+  
